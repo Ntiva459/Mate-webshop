@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="img/logo2.png" />
+    <title>Frisszöldségagyagfalva</title>
+    <link rel="stylesheet" href="navstyle.css" />
+    <link rel="stylesheet" href="pagetyle.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo2.png" alt="Cégnév logója" />
+        <a href="index.htm" class="company-name">Frisszöldségagyagfalva</a>
+      </div>
+      <button class="menu-toggle">☰</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.htm">Főoldal</a></li>
+          <li><a href="prod.htm">Termékek</a></li>
+          <li><a href="us.htm">Rólunk</a></li>
+          <li>
+            <a href="login.html" class="admin"
+              ><img src="img/ujlogo.png" class="adminlogo"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="udv">Üdvözülünk az oldalunkon!</h1>
+      <p class="szoveg">
+        Fedezd fel az Agyagfalváról származó friss és minőségi zöldségeink
+        világát! Közvetlenül a termelőtől az asztalodra, mert számunkra a
+        frissesség és a fenntarthatóság a legfontosabb. Válogass szezonális
+        kínálatunkból, és támogasd a helyi gazdákat, miközben családod számára a
+        legjobbat választod!
+      </p>
+      <img class="foto1" src="img/fo.jpg" />
+      <p class="szoveg2">
+        Miért válaszd Agyagfalva friss zöldségeit? Garantált frissességet
+        kínálunk, hiszen zöldségeink közvetlenül a földről kerülnek hozzád.
+        Minden
+        termékünk az évszak legjobbját nyújtja, mindig friss, mindig
+        természetes. Közvetlen kapcsolatot kínálunk vásárlóinkkal, így bármilyen
+        kérdésed van, örömmel válaszolunk, mert számunkra minden vásárló fontos.
+        Rendelj ma, és tapasztald meg, milyen az igazi frissesség és minőség!
+      </p>
+
+      <img class="foto2" src="img/fo2.jpg" />
+    </main>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
