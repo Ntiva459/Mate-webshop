@@ -105,6 +105,9 @@
     align-items: center;
     justify-content: center;
 }
+.product-item:hover {
+    transform: scale(1.05);
+}
 .product-list{
     display: flex;
     flex-wrap: wrap;
