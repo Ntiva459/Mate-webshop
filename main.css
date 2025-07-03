@@ -88,6 +88,7 @@
 }
 .prodph{
     height: 180px;
+    cursor: pointer;
 }
 .product-item{
     width: 300px;
@@ -110,6 +111,21 @@
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    text-decoration: none;
+}
+.product-link {
+    text-decoration: none;
+    color: #384f42;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.product-item-link{
+    text-decoration: none;
+    color: #384f42;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.2rem;
 }
 
 
